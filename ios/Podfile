@@ -1,0 +1,46 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '10.0'
+
+target 'previautos' do
+  config = use_native_modules!
+
+  use_react_native!(:path => config["reactNativePath"])
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+  pod 'RNSslPinning', :path => '../node_modules/react-native-ssl-pinning/ios'
+  
+
+  pod 'RNSecureRandom', :path => '../node_modules/react-native-securerandom'
+
+  pod 'RNDeviceInfo', :path => '../node_modules/react-native-device-info'
+
+  pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
+
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+  pod 'RNFirebase', :path => '../node_modules/react-native-firebase/ios'
+  pod 'Firebase/Analytics', '~> 6.2.0'
+  pod 'Firebase/Messaging', '~> 6.2.0'
+  pod 'Firebase/Core', '~> 6.2.0'
+  target 'previautosTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  use_native_modules!
+end
+
+target 'previautos-tvOS' do
+  # Pods for previautos-tvOS
+
+  target 'previautos-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end

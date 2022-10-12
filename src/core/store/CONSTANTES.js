@@ -1,0 +1,21 @@
+const CONSTANTES = {
+  // --------------------------------------------------------------------------
+  //BANCOS
+  BANCOS_LISTA_OBTENER: 'BANCOS_LISTA_OBTENER',
+  BANCOS_LISTA_RECIBE: 'BANCOS_LISTA_RECIBE',
+  //PREOPERACIONALES
+
+  LIMPIAR_ESTADO: 'LIMPIAR_ESTADO',
+  LIMPIAR_ESTADO_DESMONTAR: 'LIMPIAR_ESTADO_DESMONTAR',
+
+  API_ERROR_RESPUESTA: 'API_ERROR_RESPUESTA',
+  API_SOLICITUD: 'API_SOLICITUD',
+
+  // --------------------------------------------------------------------------
+  STORAGE_SET_ITEM: "STORAGE_SET_ITEM",
+  STORAGE_DELETE_ITEM: "STORAGE_DELETE_ITEM",
+  STORAGE_CLEAR: "STORAGE_CLEAR"
+
+};
+
+export default CONSTANTES;

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">pagatodo</string>
+    <string name="appCenterCrashes_whenToSendCrashes" />
+    <string name="appCenterAnalytics_whenToEnableAnalytics" />
+</resources>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "719670667995",
+    "project_id": "pagatodo-b2e0c",
+    "storage_bucket": "pagatodo-b2e0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719670667995:android:032ea79a639c5da556fafe",
+        "android_client_info": {
+          "package_name": "com.pagatodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719670667995-gahu6v0fdi7phdto3pi6nujn9amu76i8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmdvAScO_XQxPRXQybxGv33NyYomcv6PY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719670667995-gahu6v0fdi7phdto3pi6nujn9amu76i8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719670667995:android:9675a1bac69284ca56fafe",
+        "android_client_info": {
+          "package_name": "com.weknock.previautos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719670667995-gahu6v0fdi7phdto3pi6nujn9amu76i8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmdvAScO_XQxPRXQybxGv33NyYomcv6PY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719670667995-gahu6v0fdi7phdto3pi6nujn9amu76i8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
